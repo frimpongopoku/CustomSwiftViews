@@ -16,7 +16,8 @@ struct ContentView: View {
 //            .cornerRadius(10)
 //            .frame(height: 100)
 //            .shadow(radius: 10)
-        Spinner()
+//        Spinner()
+        TabbedView()
     }
 }
 
