@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    let imageURL : String = "https://seanallen-course-backend.herokuapp.com/images/appetizers/blackened-shrimp.jpg";
+    @State private var image : Image?
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ImageFromNetwork(link: imageURL)
+            .scaledToFit()
+            .cornerRadius(10)
+            .frame(height: 100)
+            .shadow(radius: 10)
     }
 }
 

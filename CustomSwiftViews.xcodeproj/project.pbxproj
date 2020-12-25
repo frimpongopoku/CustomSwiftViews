@@ -13,6 +13,10 @@
 		9E653F562595E017004EFF43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E653F412595E016004EFF43 /* ContentView.swift */; };
 		9E653F572595E017004EFF43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E653F422595E017004EFF43 /* Assets.xcassets */; };
 		9E653F582595E017004EFF43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E653F422595E017004EFF43 /* Assets.xcassets */; };
+		9E653F652595E11F004EFF43 /* ImageFromNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E653F642595E11F004EFF43 /* ImageFromNetwork.swift */; };
+		9E653F6E2595E1E6004EFF43 /* InternetExplorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E653F6D2595E1E6004EFF43 /* InternetExplorer.swift */; };
+		9E653F742595E216004EFF43 /* InternetResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E653F732595E216004EFF43 /* InternetResponse.swift */; };
+		9E653F782595E248004EFF43 /* InternetError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E653F772595E248004EFF43 /* InternetError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		9E653F4F2595E017004EFF43 /* CustomSwiftViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSwiftViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E653F512595E017004EFF43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E653F522595E017004EFF43 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		9E653F642595E11F004EFF43 /* ImageFromNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFromNetwork.swift; sourceTree = "<group>"; };
+		9E653F6D2595E1E6004EFF43 /* InternetExplorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetExplorer.swift; sourceTree = "<group>"; };
+		9E653F732595E216004EFF43 /* InternetResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetResponse.swift; sourceTree = "<group>"; };
+		9E653F772595E248004EFF43 /* InternetError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,8 @@
 		9E653F3A2595E016004EFF43 = {
 			isa = PBXGroup;
 			children = (
+				9E653F6C2595E1CB004EFF43 /* Network Tools */,
+				9E653F642595E11F004EFF43 /* ImageFromNetwork.swift */,
 				9E653F3F2595E016004EFF43 /* Shared */,
 				9E653F492595E017004EFF43 /* iOS */,
 				9E653F502595E017004EFF43 /* macOS */,
@@ -88,6 +98,16 @@
 				9E653F522595E017004EFF43 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		9E653F6C2595E1CB004EFF43 /* Network Tools */ = {
+			isa = PBXGroup;
+			children = (
+				9E653F6D2595E1E6004EFF43 /* InternetExplorer.swift */,
+				9E653F732595E216004EFF43 /* InternetResponse.swift */,
+				9E653F772595E248004EFF43 /* InternetError.swift */,
+			);
+			path = "Network Tools";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +209,10 @@
 			files = (
 				9E653F552595E017004EFF43 /* ContentView.swift in Sources */,
 				9E653F532595E017004EFF43 /* CustomSwiftViewsApp.swift in Sources */,
+				9E653F652595E11F004EFF43 /* ImageFromNetwork.swift in Sources */,
+				9E653F6E2595E1E6004EFF43 /* InternetExplorer.swift in Sources */,
+				9E653F742595E216004EFF43 /* InternetResponse.swift in Sources */,
+				9E653F782595E248004EFF43 /* InternetError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
