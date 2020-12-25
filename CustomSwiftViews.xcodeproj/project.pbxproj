@@ -25,6 +25,7 @@
 		9E653F9425962CE7004EFF43 /* Page4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E653F9325962CE7004EFF43 /* Page4.swift */; };
 		9E653F9825962E2E004EFF43 /* FoodCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E653F9725962E2E004EFF43 /* FoodCard.swift */; };
 		9E653F9C25963776004EFF43 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E653F9B25963776004EFF43 /* Badge.swift */; };
+		9E653FA0259659CB004EFF43 /* DetailModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E653F9F259659CA004EFF43 /* DetailModal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		9E653F9325962CE7004EFF43 /* Page4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page4.swift; sourceTree = "<group>"; };
 		9E653F9725962E2E004EFF43 /* FoodCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCard.swift; sourceTree = "<group>"; };
 		9E653F9B25963776004EFF43 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		9E653F9F259659CA004EFF43 /* DetailModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				9E653F8B2596267A004EFF43 /* Page2.swift */,
 				9E653F8F25962683004EFF43 /* Page3.swift */,
 				9E653F9325962CE7004EFF43 /* Page4.swift */,
+				9E653F9F259659CA004EFF43 /* DetailModal.swift */,
 				9E653F9725962E2E004EFF43 /* FoodCard.swift */,
 				9E653F9B25963776004EFF43 /* Badge.swift */,
 			);
@@ -256,6 +259,7 @@
 				9E653F652595E11F004EFF43 /* ImageFromNetwork.swift in Sources */,
 				9E653F9C25963776004EFF43 /* Badge.swift in Sources */,
 				9E653F7D25961A19004EFF43 /* Spinner.swift in Sources */,
+				9E653FA0259659CB004EFF43 /* DetailModal.swift in Sources */,
 				9E653F6E2595E1E6004EFF43 /* InternetExplorer.swift in Sources */,
 				9E653F742595E216004EFF43 /* InternetResponse.swift in Sources */,
 				9E653F782595E248004EFF43 /* InternetError.swift in Sources */,
