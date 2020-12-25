@@ -17,6 +17,7 @@
 		9E653F6E2595E1E6004EFF43 /* InternetExplorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E653F6D2595E1E6004EFF43 /* InternetExplorer.swift */; };
 		9E653F742595E216004EFF43 /* InternetResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E653F732595E216004EFF43 /* InternetResponse.swift */; };
 		9E653F782595E248004EFF43 /* InternetError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E653F772595E248004EFF43 /* InternetError.swift */; };
+		9E653F7D25961A19004EFF43 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E653F7C25961A19004EFF43 /* Spinner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		9E653F6D2595E1E6004EFF43 /* InternetExplorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetExplorer.swift; sourceTree = "<group>"; };
 		9E653F732595E216004EFF43 /* InternetResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetResponse.swift; sourceTree = "<group>"; };
 		9E653F772595E248004EFF43 /* InternetError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetError.swift; sourceTree = "<group>"; };
+		9E653F7C25961A19004EFF43 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		9E653F3A2595E016004EFF43 = {
 			isa = PBXGroup;
 			children = (
+				9E653F7B25961A01004EFF43 /* Components */,
 				9E653F6C2595E1CB004EFF43 /* Network Tools */,
 				9E653F642595E11F004EFF43 /* ImageFromNetwork.swift */,
 				9E653F3F2595E016004EFF43 /* Shared */,
@@ -108,6 +111,14 @@
 				9E653F772595E248004EFF43 /* InternetError.swift */,
 			);
 			path = "Network Tools";
+			sourceTree = "<group>";
+		};
+		9E653F7B25961A01004EFF43 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9E653F7C25961A19004EFF43 /* Spinner.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +221,7 @@
 				9E653F552595E017004EFF43 /* ContentView.swift in Sources */,
 				9E653F532595E017004EFF43 /* CustomSwiftViewsApp.swift in Sources */,
 				9E653F652595E11F004EFF43 /* ImageFromNetwork.swift in Sources */,
+				9E653F7D25961A19004EFF43 /* Spinner.swift in Sources */,
 				9E653F6E2595E1E6004EFF43 /* InternetExplorer.swift in Sources */,
 				9E653F742595E216004EFF43 /* InternetResponse.swift in Sources */,
 				9E653F782595E248004EFF43 /* InternetError.swift in Sources */,
